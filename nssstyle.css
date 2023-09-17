@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navi {
+    background-color: rgb(223, 98, 92);
+    display: grid;
+    grid-template-columns: 12vw 13vw 30vw 45vw;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+}
+
+.nav {
+    background-color: rgb(223, 98, 92);
+    width: 100px;
+    height: 10px;
+    margin: 10px 10px 20px 0px;
+    color: hsl(162, 77%, 17%);
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    font-size: 21px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(175, 97, 140);
+    height: 1100px;
+}
+
+#join {
+    position: fixed;
+    left: 0px;
+    bottom: 25vh;
+}
+
+.about {
+    background-color: rgb(74, 183, 143);
+    height: 300px;
+    margin: 0 20vw;
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+}
+
+.motto {
+    text-align: center;
+}
+
+.events {
+    text-align: center;
+    font-family: 'Mooli', sans-serif;
+    font-size: 24px;
+    color: hsl(10, 98%, 39%);
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgba(10, 5, 5, 0.917);
+    color: beige;
+    height: 100px;
+    text-align: center;
+}
+
+#foot1 {
+    position: absolute;
+    left: 40vw;
+
+}
+
+#foot2 {
+    position: absolute;
+    left: 50vw;
+}
+
+.media {
+    display: none;
+}
+
+@media (max-width:700px) {
+    .about {
+        display: none;
+    }
+}
